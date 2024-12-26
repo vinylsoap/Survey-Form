@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+    <body>
+        <div class="title">
+            <h1>First form</h1>
+            <div class="description">
+                <p>little survey form with random everything</p>
+            </div>
+        </div>
+        <div class="survey-form">
+            <form>
+                <label>Name</label>
+                <input type="text" id="name">
+                <br><br>
+                <label>Email</label>
+                <input type="email" id="email">
+                <br><br>
+                <label>Number 0-8</label>
+                <input type="number" id="number" min="0" max="8">
+                <br><br>
+                <label for="systems">Choose something:</label>
+
+                <select name="systems" id="systems">
+                    <option value="Android">Android</option>
+                    <option value="IOS">IOS</option>
+                </select>
+                <br><br>
+
+                <label>Choose something:</label><br>
+                <input type="radio" id="Windows" name="opsystem" value="Windows">
+                <label for="Windows">Windows</label><br>
+
+                <input type="radio" id="IOS" name="opsystem" value="IOS">
+                <label for="IOS">IOS</label><br>
+
+                <input type="radio" id="Linux" name="opsystem" value="Linux">
+                <label for="Linux">Linux</label>
+                
+                <br><br>
+
+                <label>Choose something, but now more than one option:</label><br>
+                <input type="checkbox" id="Windows" name="opsystem" value="Windows">
+                <label for="Windows">Windows</label><br>
+
+                <input type="checkbox" id="IOS" name="opsystem" value="IOS">
+                <label for="IOS">IOS</label><br>
+
+                <input type="checkbox" id="Linux" name="opsystem" value="Linux">
+                <label for="Linux">Linux</label>
+
+                <br><br>
+                <input type="textarea">
+                <br><br>
+                <button type="button">Submit</button>
+            </form>
+        </div>
+    </body>
+</html>
